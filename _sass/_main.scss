@@ -1,3 +1,274 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+
+
+  h1{
+    text-align: center;
+    margin: 20px;
+    color: #C5A054;
+  }
+  
+  a:link, a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  li{
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   padding-top: 70px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    float: center;
+  }
+
+.formbox{
+    i{
+    text-align: center;
+  }
+}
+
+  // buttons
+
+.btn-secondary{
+      background-color: #989898;
+      border:#989898;
+      position: relative;
+      display: block;
+      margin: auto;
+      a{
+        color: white;
+      }
+    }
+
+.btn-warning{
+  background-color: #C5A054;
+  border: #C5A054;
+  display: block;
+  margin: auto;
+  a{
+    color: white;
+  }
+}
+  
+  
+  // navbar
+  
+.navbar-nav{
+  float: center;
+  text-align: center;
+}
+  .navbar-brand{
+    float: left;
+    padding: 0;
+  }
+  
+  .navbar-collapse .collapse .show{
+    ul .navbar-nav .mr-auto{
+      float: center;
+      text-align: center;
+      padding-left: 30px;
+  }
+}
+  
+// index
+
+.img-fluid {
+  position:relative;
+  text-align:center;
+  width: 100%;
+  height: auto;
+  .button {
+    position:absolute;
+    bottom:30px;
+    right:90px;
+    opacity: 0.8;
+  }
+
+}
+
+.scrollbutton{
+  margin-bottom: 30px;
+  margin-top:30px;
+  text-align: center;
+
+}
+
+
+// overdehond
+
+.vetgedrukt{
+  color: #C5A14D;
+}
+
+// overdebaasjes
+
+h3{
+  font-family: 'Libre Baskerville light', serif;
+  font-size: 1.4em;
+  color: #C5A14D;
+}
+
+.col-sm-6{
+  img{
+    display: block;
+    margin: auto;
+  }
+}
+  
+  // kalender
+  
+  .card {
+      color: #C5A054;
+      text-align: center;
+      .cardbody{
+        border-left: solid grey 1px;
+      }
+      .cardbody:first-child{
+        border-left: none;
+      }
+      
+    }
+  
+  
+  
+  // afspraken
+  .formbox{
+    border: solid grey 1px;
+    padding: 15px;
+    border-radius: 25px;
+    
+  }
+  
+  
+  
+  // contacteer ons
+  
+  .contact{
+    text-align: center;
+  
+  }
+
+.vetgedrukt-center{
+  color:#C5A054;
+  text-align: center;
+}
+
+  #map{
+    display: block;
+    margin: auto;
+}
+  
+
+  // breadcrumb
+  
+  #breadcrumb{
+    font-size: 0.9em;
+    ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    list-style: none;
+    }
+    li {
+      float: left;
+      margin: 0 10px;
+    }
+    a {
+    background: #ddd;
+    padding: .7em 1em;
+    float: left;
+    text-decoration: none;
+    color: #444;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    position: relative;
+    }
+    li:first-child a {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    li:last-child a {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    
+    li:not(:first-child) > a::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      margin-top: -1.5em;   
+      border-width: 1.5em 0 1.5em 1em;
+      border-style: solid;
+      border-color: #ddd #ddd #ddd transparent;
+      left: -1em;
+    }
+    li:not(:last-child) > a::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      margin-top: -1.5em;   
+      border-top: 1.5em solid transparent;
+      border-bottom: 1.5em solid transparent;
+      border-left: 1em solid #ddd;
+      right: -1em;
+      }
+  }
+  
+  
+
+  // bevestiging
+
+
+  .bevestiging{
+    float: center;
+    p{
+      text-align: center;
+    }
+    img{
+      float: center;
+      width: 100%;
+      height: auto;
+
+    }
+  }
+
+
+  // footer
+
+  footer{
+    color: white;
+
+      .list-unstyled{
+        a{
+          color: white;
+        }
+      }
+  }
+
+  .footer-bottom{
+    background: #424242;
+    padding: 2em;
+  }
+  .footer-top{
+    background: #424242;  
+  }
+  .footer-middle{
+    background: #424242;
+    padding-top: 2em;
+    color: white;
+  }
+
+

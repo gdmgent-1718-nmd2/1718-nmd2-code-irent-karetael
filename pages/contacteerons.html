@@ -1,0 +1,88 @@
+---
+layout   : default
+permalink: contacteerons
+published: true
+# Custom Page Variables
+# _____________________
+title: Contacteer ons
+---
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-12">
+
+        <h1>Contacteer ons</h1> 
+        </div>
+
+        <div class="col-sm-4 contact">
+            <i class="fa fa-phone" style="font-size:24px"></i>
+            <p>Telefoon</p>
+            <p>+44.2060.123456</p>
+        </div>
+
+        <div class="col-sm-4 contact">
+            <i class="fa fa-map-marker" style="font-size:24px"></i>
+            <p>Adres</p>
+            <p>13 Holland St Londen, Engeland</p>
+        </div>
+        <div class="col-sm-4 contact">
+            <i class="fa fa-envelope-o" style="font-size:24px"></i>
+            <p>E-mail</p>
+            <p>Karen.Taelman@gmail.com</p>
+        </div>
+
+        </div>
+
+    <div class="row">
+        <div class="col-12">
+
+        <!-- kaart -->
+
+        <div id="map" style="width:100%;height:400px;background:yellow"></div>
+<br>
+        <!-- form -->
+        <p class="vetgedrukt-center">Mocht je vragen hebben. Twijfel niet en zend ons een mail.</p>
+
+            <form class="formbox">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Naam</label>
+                        <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Naam">
+                </div>
+                
+                <div class="form-check">
+                    <label class="form-check-label">
+                        </label>
+                </div>
+                <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Vraag?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-warning"><a href="">Verzend</a></button>
+            </form>
+
+        
+        </div>
+    </div>
+</div>
+
+<br>
+
+
+
+<script>
+    function myMap() {
+      var mapCanvas = document.getElementById("map");
+      var mapOptions = {
+        center: new google.maps.LatLng(51.5026481,-0.194096,16.19), zoom: 16
+      };
+      var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIaNq7J8rLwobDoNOlDTMBBL6G1GnEfVs&callback=myMap"></script>
+    

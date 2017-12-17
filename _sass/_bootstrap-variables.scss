@@ -8,13 +8,27 @@
 // Color system
 //
 
-$indigo:  #6610f2;
-$primary: $indigo;
+$yellow:  #C5A054;
+$primary: $yellow;
+$darkgrey:#424242;
+$secondary: $darkgrey;
+$lightgrey:#989898;
+$third: $lightgrey;
+
+
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
-$font-family-base: Merriweather, serif;
+
+$font-family-base: 'Libre Baskerville', serif;
+$font-family: 'verdana';
+
+
+
+
+
+
