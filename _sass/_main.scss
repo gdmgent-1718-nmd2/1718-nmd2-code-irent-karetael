@@ -3,11 +3,17 @@
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
 
 
+body {
+  font-family: $font-family;
+  h1{
+    font-family: $font-family-base;
+  }
+}
 
   h1{
     text-align: center;
     margin: 20px;
-    color: #C5A054;
+    color: $primary;
   }
   
   a:link, a:visited {
@@ -54,8 +60,8 @@
     }
 
 .btn-warning{
-  background-color: #C5A054;
-  border: #C5A054;
+  background-color: $primary;
+  border: $primary;
   display: block;
   margin: auto;
   a{
@@ -110,7 +116,7 @@
 // overdehond
 
 .vetgedrukt{
-  color: #C5A14D;
+  color: $primary;
 }
 
 // overdebaasjes
@@ -118,7 +124,7 @@
 h3{
   font-family: 'Libre Baskerville light', serif;
   font-size: 1.4em;
-  color: #C5A14D;
+  color: $primary;
 }
 
 .col-sm-6{
@@ -131,7 +137,7 @@ h3{
   // kalender
   
   .card {
-      color: #C5A054;
+      color: $primary;
       text-align: center;
       .cardbody{
         border-left: solid grey 1px;
@@ -162,7 +168,7 @@ h3{
   }
 
 .vetgedrukt-center{
-  color:#C5A054;
+  color:$primary;
   text-align: center;
 }
 
