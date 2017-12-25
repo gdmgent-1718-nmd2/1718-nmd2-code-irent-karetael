@@ -48,12 +48,15 @@ body {
 
   // buttons
 
+
 .btn-secondary{
       background-color: #989898;
       border:#989898;
       position: relative;
       display: block;
       margin: auto;
+      border-radius: 50px;
+      
       a{
         color: white;
       }
@@ -64,6 +67,7 @@ body {
   border: $primary;
   display: block;
   margin: auto;
+  border-radius: 50px;
   a{
     color: white;
   }
